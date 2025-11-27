@@ -30,5 +30,5 @@ app.delete("/items/:id", (req, res)=>{
     res.json({message: "Item deleted!"});
 });
 
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
